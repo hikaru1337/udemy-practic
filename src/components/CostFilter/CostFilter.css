@@ -1,0 +1,16 @@
+.CostFilter-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CostFilter-select {
+  display: flex;
+  font-size: 16px;
+  height: 35px;
+  background-color: #242424;
+  border: none;
+  outline: none;
+  color: #dfdfdf;
+  border-radius: 5px;
+}

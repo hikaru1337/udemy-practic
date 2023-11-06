@@ -1,0 +1,67 @@
+.costForm_items {
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    color: #dfdfdf;
+    width: 350px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.costItem_Name {
+    display: flex;
+    align-items: center;
+}
+
+.costForm_item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.costForm_item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    height: 28px;
+    background-color: #3d3d3d;
+    color: #dfdfdf;
+    padding-left: 10px;
+}
+
+input::placeholder {
+    color: #666666;
+}
+
+input[type=date] {
+    height: 30px;
+    width: 171px;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+    width: 20px;
+    cursor: pointer;
+}
+
+.costForm_submit {
+    padding-top: 10px;
+    display: flex;
+    justify-content: right;
+}
+
+.costForm_submit button {
+    outline: none;
+    border: none;
+    width: 181px;
+    height: 30px;
+    border-radius: 5px;
+    color: #dfdfdf;
+    background-color: #529734;
+}
+.costForm_submit button:hover {
+    cursor: pointer;
+}
